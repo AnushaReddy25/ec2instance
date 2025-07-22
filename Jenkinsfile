@@ -2,13 +2,13 @@ pipeline {
     agent any
 
     environment {
-        AWS_DEFAULT_REGION = 'us-east-1'
+        AWS_DEFAULT_REGION = 'eu-north-1'
     }
 
     stages {
         stage('Checkout') {
             steps {
-                git url: 'https://github.com/your-username/terraform-nginx-lb.git'
+                git url: 'https://github.com/AnushaReddy25/ec2instance.git'
             }
         }
 
